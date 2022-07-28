@@ -1,11 +1,24 @@
 .slider-img {
-    filter: brightness(50%);
+    /* filter: brightness(50%); */
     height: 100vh;
 }
-.trusted-company-h1{font-size: 45px;}
-.custom-bg-color-1{background-color: #289BDE;}
-.custom-text-color-1{color: #289BDE!important;}
-.register-btn:hover{color: #289BDE!important;}
+
+.trusted-company-h1 {
+    font-size: 45px;
+}
+
+.custom-bg-color-1 {
+    background-color: #289BDE;
+}
+
+.custom-text-color-1 {
+    color: #289BDE !important;
+}
+
+.register-btn:hover {
+    color: #289BDE !important;
+}
+
 /* =====================================================
 -----------------------Media Query-----------------------\
 ========================================================== */
@@ -40,6 +53,11 @@
     .slider-btn {
         font-size: 18px;
     }
+
+    .faq {
+        width: 100%;
+       
+    }
 }
 
 /* tablet devices end */
@@ -56,6 +74,11 @@
 
     .slider-btn {
         font-size: 20px;
+    }
+
+    .faq {
+        width: 50%;
+        margin: auto;
     }
 }
 
