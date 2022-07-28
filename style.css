@@ -1,5 +1,5 @@
 .slider-img {
-    /* filter: brightness(50%); */
+    filter: brightness(50%);
     height: 100vh;
 }
 
@@ -17,6 +17,10 @@
 
 .register-btn:hover {
     color: #289BDE !important;
+}
+.customize-course-img{
+height: 100%!important;
+width: 100%!important;
 }
 
 /* =====================================================
