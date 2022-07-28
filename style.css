@@ -1,1 +1,63 @@
-.slider-font{font-size: 65px;}
+.slider-img {
+    filter: brightness(50%);
+    height: 100vh;
+}
+.trusted-company-h1{font-size: 45px;}
+.custom-bg-color-1{background-color: #289BDE;}
+.custom-text-color-1{color: #289BDE!important;}
+.register-btn:hover{color: #289BDE!important;}
+/* =====================================================
+-----------------------Media Query-----------------------\
+========================================================== */
+
+/* mobile devices start*/
+@media only screen and (max-width:767px) {
+    .slider-h1 {
+        font-size: 20px;
+    }
+
+    .slider-p {
+        font-size: 12px;
+    }
+
+    .slider-btn {
+        font-size: 16px;
+    }
+}
+
+/* mobile devices end */
+/* --------------------------------------------------------------------- */
+/* tablat devices start */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .slider-h1 {
+        font-size: 40px;
+    }
+
+    .slider-p {
+        font-size: 16px;
+    }
+
+    .slider-btn {
+        font-size: 18px;
+    }
+}
+
+/* tablet devices end */
+/* ---------------------------------------------------------------------------- */
+/* lg devices start */
+@media only screen and (min-width:992px) {
+    .slider-h1 {
+        font-size: 65px;
+    }
+
+    .slider-p {
+        font-size: 18px;
+    }
+
+    .slider-btn {
+        font-size: 20px;
+    }
+}
+
+/* lg devices end */
+/* ------------------------------------------------------------------------------ */
