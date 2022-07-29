@@ -23,17 +23,18 @@
         <!-- -------------------------------
         nav start
     -------------------------------- -->
-        <nav class="navbar navbar-expand-lg bg-light w-100 py-4 px-1 ">
+        <nav class="navbar navbar-expand-lg bg-light w-100 py-3 px-1 ">
             <div class="container-fluid ">
-                <a class="navbar-brand fs-2 fw-bold " href="#">LearningHub</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse  ms-auto md-font" id="navbarTogglerDemo02">
-
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto ">
+                <a class="navbar-brand fs-2 fw-bold" href="#index.html">LearningHub</a>
+                <div class="order-lg-last"><button class="d-none d-md-inline btn btn-outline-info "
+                        type="button">Register</button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button></div>
+                <!-- need to add Register btn(1) collapse btn with -->
+                <div class="collapse navbar-collapse order-3" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 mx-auto ">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -53,15 +54,11 @@
                         <li>
                             <a class="nav-link" href="#register">Register</a>
                         </li>
-
+                        <li><button class="d-md-none btn btn-outline-info " type="button">Register</button>
+                        <!-- only need for (sm) collapse time [btn(2)] -->
+                        </li>
                     </ul>
-                    <div class="d-inline-flex order-last justify-content-lg-end "><button class="btn btn-outline-info "
-                            type="button">Register</button></div>
-
-
-
                 </div>
-
             </div>
         </nav>
         <!-- nav end -->
@@ -135,150 +132,150 @@
                     layout.</p>
             </div>
             <!-- card/course-main part start -->
-           
-                <div class="container mb-4 mt-3">
-                    <div class="row g-3">
-                        <!-- 1st item -->
-                        <div class="col-sm-12 col-lg-6">
-                            <div class=" ">
-                                <div class="card mb-1  h-100">
-                                    <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img class="customize-course-img "
-                                                src="edTech-website-main/images/course/course-1.png" alt="">
 
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body py-4 ps-3">
-                                                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                                                <p class="card-text">Some quick example text to build on the card title
-                                                    and make up the bulk of the card.</p>
-                                                <h4 class="custom-text-color-1">Price: $20</h4>
-                                            </div>
+            <div class="container mb-4 mt-3">
+                <div class="row g-3">
+                    <!-- 1st item -->
+                    <div class="col-sm-12 col-lg-6">
+                        <div class=" ">
+                            <div class="card mb-1  h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img class="customize-course-img "
+                                            src="edTech-website-main/images/course/course-1.png" alt="">
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body py-4 ps-3">
+                                            <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                            <p class="card-text">Some quick example text to build on the card title
+                                                and make up the bulk of the card.</p>
+                                            <h4 class="custom-text-color-1">Price: $20</h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--  -->
-                        <!-- 2nd item -->
-                        <div class="col-sm-12 col-lg-6">
-                            <div class=" ">
-                                <div class="card mb-1  h-100">
-                                    <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img class="customize-course-img "
-                                                src="edTech-website-main/images/course/course-2.png" alt="">
-
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body py-4 ps-3">
-                                                <h5 class="card-title">Javascript Basic to advanced</h5>
-                                                <p class="card-text">Some quick example text to build on the card title
-                                                    and make up the bulk of the card.</p>
-                                                <h4 class="custom-text-color-1">Price: $20</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--  -->
-                        <!-- 3rd item -->
-                        <div class="col-sm-12 col-lg-6">
-                            <div class=" ">
-                                <div class="card mb-1  h-100">
-                                    <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img class="customize-course-img "
-                                                src="edTech-website-main/images/course/course-3.png" alt="">
-
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body py-4 ps-3">
-                                                <h5 class="card-title">Fullstack Web Development</h5>
-                                                <p class="card-text">Some quick example text to build on the card title
-                                                    and make up the bulk of the card.</p>
-                                                <h4 class="custom-text-color-1">Price: $20</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--  -->
-                        <!-- 4th item -->
-                        <div class="col-sm-12 col-lg-6">
-                            <div class=" ">
-                                <div class="card mb-1  h-100">
-                                    <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img class="customize-course-img "
-                                                src="edTech-website-main/images/course/course-4.png" alt="">
-
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body py-4 ps-3">
-                                                <h5 class="card-title">Digital Marketing</h5>
-                                                <p class="card-text">Some quick example text to build on the card title
-                                                    and make up the bulk of the card.</p>
-                                                <h4 class="custom-text-color-1">Price: $20</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--  -->
-                        <!--5th item  -->
-                        <div class="col-sm-12 col-lg-6">
-                            <div class=" ">
-                                <div class="card mb-1  h-100">
-                                    <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img class="customize-course-img "
-                                                src="edTech-website-main/images/course/course-5.png" alt="">
-
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body py-4 ps-3">
-                                                <h5 class="card-title">Photography Basic Rules</h5>
-                                                <p class="card-text">Some quick example text to build on the card title
-                                                    and make up the bulk of the card.</p>
-                                                <h4 class="custom-text-color-1">Price: $20</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--  -->
-                        <!-- 6th item -->
-                        <div class="col-sm-12 col-lg-6">
-                            <div class=" ">
-                                <div class="card mb-1  h-100">
-                                    <div class="row g-0">
-                                        <div class="col-md-4">
-                                            <img class="customize-course-img "
-                                                src="edTech-website-main/images/course/course-6.png" alt="">
-
-                                        </div>
-                                        <div class="col-md-8">
-                                            <div class="card-body py-4 ps-3">
-                                                <h5 class="card-title">Motion Graphics</h5>
-                                                <p class="card-text">Some quick example text to build on the card title
-                                                    and make up the bulk of the card.</p>
-                                                <h4 class="custom-text-color-1">Price: $20</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- item end -->
                     </div>
+                    <!--  -->
+                    <!-- 2nd item -->
+                    <div class="col-sm-12 col-lg-6">
+                        <div class=" ">
+                            <div class="card mb-1  h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img class="customize-course-img "
+                                            src="edTech-website-main/images/course/course-2.png" alt="">
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body py-4 ps-3">
+                                            <h5 class="card-title">Javascript Basic to advanced</h5>
+                                            <p class="card-text">Some quick example text to build on the card title
+                                                and make up the bulk of the card.</p>
+                                            <h4 class="custom-text-color-1">Price: $20</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!-- 3rd item -->
+                    <div class="col-sm-12 col-lg-6">
+                        <div class=" ">
+                            <div class="card mb-1  h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img class="customize-course-img "
+                                            src="edTech-website-main/images/course/course-3.png" alt="">
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body py-4 ps-3">
+                                            <h5 class="card-title">Fullstack Web Development</h5>
+                                            <p class="card-text">Some quick example text to build on the card title
+                                                and make up the bulk of the card.</p>
+                                            <h4 class="custom-text-color-1">Price: $20</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!-- 4th item -->
+                    <div class="col-sm-12 col-lg-6">
+                        <div class=" ">
+                            <div class="card mb-1  h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img class="customize-course-img "
+                                            src="edTech-website-main/images/course/course-4.png" alt="">
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body py-4 ps-3">
+                                            <h5 class="card-title">Digital Marketing</h5>
+                                            <p class="card-text">Some quick example text to build on the card title
+                                                and make up the bulk of the card.</p>
+                                            <h4 class="custom-text-color-1">Price: $20</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!--5th item  -->
+                    <div class="col-sm-12 col-lg-6">
+                        <div class=" ">
+                            <div class="card mb-1  h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img class="customize-course-img "
+                                            src="edTech-website-main/images/course/course-5.png" alt="">
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body py-4 ps-3">
+                                            <h5 class="card-title">Photography Basic Rules</h5>
+                                            <p class="card-text">Some quick example text to build on the card title
+                                                and make up the bulk of the card.</p>
+                                            <h4 class="custom-text-color-1">Price: $20</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!-- 6th item -->
+                    <div class="col-sm-12 col-lg-6">
+                        <div class=" ">
+                            <div class="card mb-1  h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img class="customize-course-img "
+                                            src="edTech-website-main/images/course/course-6.png" alt="">
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body py-4 ps-3">
+                                            <h5 class="card-title">Motion Graphics</h5>
+                                            <p class="card-text">Some quick example text to build on the card title
+                                                and make up the bulk of the card.</p>
+                                            <h4 class="custom-text-color-1">Price: $20</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item end -->
                 </div>
-            
+            </div>
+
             <!-- end -->
             <!-- course button part -->
             <div class="d-flex justify-content-center mb-5  "><button
